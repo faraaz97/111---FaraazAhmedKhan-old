@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid view of Employee</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+   <script type = "text/javascript">
+       $(document).ready(function(){
+
+           $("#rows").click(function(){
+               var controls="<tr>"
+                controls+="<td><input type= 'text' name = 'Employee Id' ></td>"
+                controls+="<td><input type= 'text' name = 'Employee Name' ></td>"
+                controls+="<td><input type= 'email' name = 'Email' ></td>"
+                controls+="<td><input type= 'number' name = 'Salary' ></td>"
+                controls+="</tr>";
+                $("table tbody").append(controls);
+                });
+                    
+                   
+       });
+   </script>
+</head>
+<body>
+    <h1>Details of Employees</h1>
+    <hr>
+    <center>
+    <h2>List of employees</h2>
+    <table border="1">
+        <thead style="color: blueviolet;">
+            <tr>
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th>Email</th>
+                <th>Salary</th>
+            </tr>
+
+        </thead>
+        <tbody>
+        </tbody>
+        
+    </table>
+    <br>
+    <tr>
+        <td colspan="2"><input type="button" value ="Add new Employee" id="rows"></td>
+        
+        
+    </tr>
+</center>
+</body>
+</html>
+

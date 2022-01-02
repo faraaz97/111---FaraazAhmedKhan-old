@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Count process</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: azure;
+            margin-top: 10%;
+        }
+        textarea{
+            background-color: antiquewhite;
+            
+        }
+        button:hover{
+            background-color: burlywood;
+
+        }
+        button{
+            background-color: cadetblue;
+            font-style: italic;
+            border-radius: 5px;
+            
+        }
+    </style>
+    
+</head>
+<body>
+    
+	<h1>
+		Count the Words and Letters
+	</h1>
+
+
+	<textarea id="textField" placeholder="Type here..." rows="5" cols="60" >
+	</textarea>
+	<br><br>
+
+
+	<button onclick="countWords()">
+		Count Words
+	</button>
+	<button onclick="countLetters()">
+		Count Letters
+	</button>
+	<br><br>
+
+
+	<p> Counted Words:
+		<span id="words">0</span>
+	</p>
+
+
+	<p> Counted Letters:
+		<span id="letters">0</span>
+	</p>
+
+	<script>
+
+        // Words 
+		function countWords() {
+
+var text = document
+    .getElementById("textField").value;
+var numWords = 0;
+
+
+for (var i = 0; i < text.length; i++) {
+    var currentCharacter = text[i];
+
+    if (currentCharacter == " ") {
+        numWords += 1;
+    }
+}
+
+numWords += 1;
+
+document.getElementById("words")
+    .innerHTML = numWords;
+}
+
+		// Letters
+		function countLetters() {
+
+			var text = document.getElementById("textField").value;
+			var numLetters = 0;
+
+
+			for (var i = 0; i < text.length; i++) {
+				numLetters += 1;
+			}
+			
+			document.getElementById("letters")
+				.innerHTML = numLetters;
+		}
+
+
+
+		
+
+
+	</script>
+</body>
+
+
+</html>
