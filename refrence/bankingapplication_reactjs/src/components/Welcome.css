@@ -1,0 +1,88 @@
+#text , span{
+    color: rgb(81, 255, 0);
+}
+.miniheader{
+    background-color: rgb(247, 231, 234);
+    color: red;
+    
+    margin-left: -15px;
+    width: 1140px;
+    height: 24px;
+}
+.BankName{
+    color: rgb(245, 245, 245);
+    padding: 15px;
+    background-color: rgb(98, 241, 210);
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.registerbox  {
+    background-color: rgb(98, 241, 210);
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+.register-button , .login-button {
+   display: flex;
+   padding-left: 5%;
+   padding-top: 3%;
+}
+.loginbox{
+  
+    background-color: rgb(98, 241, 210);
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+.mainbg{
+   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    margin-top: 20px;
+}
+.applyline{
+    background-color: rgb(247, 231, 234);
+    color: red;
+    
+    margin-left: 100px;
+    width: 500px;
+    height: 20px;
+}
+
+h5{
+    color: whitesmoke;
+}
+
+
+.textitems{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+#para{
+    color: blue;
+}
+.right-img{
+    padding-left: 50px;
+    padding-bottom: 200px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    
+ 
+ }

@@ -1,0 +1,26 @@
+.nav{
+    /* position: sticky;
+    top: 0%;
+    background-color: orange;
+    z-index: 1; */
+    background: rgba( 80, 227, 194, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-family: 'Times New Roman', Times, serif;
+}
+.homehover:hover{
+    color: rgb(2, 10, 17);
+    background-color: rgb(207, 216, 207);
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+Link{
+    text-decoration: none;
+ 
+}
